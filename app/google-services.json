@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "708039941113",
+    "project_id": "my-report-app-f107c",
+    "storage_bucket": "my-report-app-f107c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708039941113:android:79f1ff6225b83a6d09bb28",
+        "android_client_info": {
+          "package_name": "com.mikirinkode.myreportapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708039941113-9ur4059u0vo67eoni9kt24qo017sur43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN8yVUbmf3kjUtGfbQgJie6bmOnVsOYgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708039941113-9ur4059u0vo67eoni9kt24qo017sur43.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
