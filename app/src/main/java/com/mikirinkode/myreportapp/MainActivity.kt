@@ -12,8 +12,11 @@ class MainActivity : AppCompatActivity() {
 
         val crashButton = findViewById<Button>(R.id.btn_crash)
         crashButton.setOnClickListener {
+            // create log to easier for track the error
             FirebaseCrashlytics.getInstance().log("Clicked on button")
+            // if want to sending data like remain ram to firebase
             FirebaseCrashlytics.getInstance().setCustomKey("str_key", "some_data")
+            // simulate the crash
             throw RuntimeException("Test Crash")
         }
     }
